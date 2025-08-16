@@ -11,8 +11,9 @@ function getShippingCost(country) {
         case "Australia":
             price = 170;
             break;
-        case "Jamaica": 
+        case "Jamaica":
             price = 120;
+            break;
         default: "Sorry, there is no delivery to your country";
     }
     return message = `Shipping to ${country} will cost ${price} credits`;
